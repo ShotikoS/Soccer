@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--important meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Marketing Services">
+    <!--linked files-->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/MainPage.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/css/all.css">
+    <title>Soccer TM</title>
+</head>
+<body>
+    <section class="topSection__menu">
+        <div class="topSection__container">
+            <div class="headerSection__container">
+                <header class="header__container">
+                    <a href="./index.html">
+                        <img src="image/logo.png" alt="SiteLogo">
+                    </a>
+                    <nav class="navbar">
+                        <ul class="navbar__menu" id="navbar__menu"></ul>
+                    </nav>
+                    <i class="fas fa-bars bar" style="display: none;"></i>
+                </header>
+                <div class="WorldCupEvent__container">
+                    <p class="WorldCupEvent__title">World Cup Event</p>
+                    <p class="WorldCupEvent__text">Lorem ipsum dolor sit amet, consectetur 
+                        adipisicing elit. Soluta, molestias repudiandae pariatur.
+                    </p>
+                    <div class="timer" id="timer"></div>
+                    <div class="WorldCupEventBtns">
+                        <button class="BookTKTS">Book tocket</button>
+                        <button class="learnMore">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="match__container">
+        <div class="matchResult">4 - 1</div>
+        <div class="FirstTeam">
+            <img src="image/teamOne.png" alt="teamOne__logo" class="TeamOne__logo">
+            <h3 class="TeamOneName">LA LEGA (win)</h3>
+            <p class="FirstEL">Anja Landry (7)</p>
+            <p>Eadie Salinas (12)</p>
+            <p>Ashton Allen (10)</p>
+            <p>Baxter Metcalfe (5)</p>
+        </div>
+        <div class="SecondTeam">
+            <img src="image/teamTwo.png" alt="teamTwo__logo" class="TeamTwo__logo">
+            <h3 class="TeamTwoName">JUVENDU (loss)</h3>
+            <p class="FirstEL">Macauly Green (3)</p>
+            <p>Arham Stark (8)</p>
+            <p>Stephan Murillo (9)</p>
+            <p>Ned Ritter (5)</p>
+        </div>
+    </section>
+    <section class="lastNews__container">
+        <div class="lastNews__content">
+            <h3 class="lastNews__title">Latest News</h3>
+            <ul class="News" id="News"></ul>
+        </div>
+    </section>
+    <section class="NextMatch__container">
+        <div class="nextMatch__content">
+            <div class="nextMatch">
+                <div class="teamsInNextMatch">
+                    <div class="footballLeague">
+                        <img src="image/teamOne.png" alt="teamOne" class="NextMatch__TeamOne">
+                        <p class="FootballLeague__text">Football League</p>
+                    </div>
+                    <p class="VS__icon">VS</p>
+                    <div class="Soccer">
+                        <img src="image/teamTwo.png" alt="teamTwo" class="NextMatch__TeamTwo">
+                        <p class="SoccerTitle">Soccer</p>
+                    </div>
+                </div>
+                <div class="NextMatch__textCenter">
+                    <p class="matchType">World Cup League</p>
+                    <p class="matchDate">December 20th, 2020</p>
+                    <p class="matchTime">9:30 AM GMT+0</p>
+                    <p class="matchPlace">New Euro Arena</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="SoccerVideos__container">
+        <div class="CarouselHead">
+            <p class="VideoTitle">Videos</p>
+            <div class="NextPrevBtn">
+                <button class="Prev SlideBtns" id="prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="Next SlideBtns" id="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <div class="SoccerVideo__content">
+            <ul class="SoccerVideos__carousel" id="SoccerVideos__carousel"></ul>
+        </div>
+    </section>
+    <section class="OurBlog__container">
+        <div class="OurBlog__content">
+            <div class="BlogOne">
+                <img src="image/blogImage(1).jpg" alt="blogImage">
+                <div class="BlogDescription">
+                    <p class="BlogAddingDate">
+                        May 20, 2020
+                    </p>
+                    <p class="BlogTitle">
+                        Romolu to stay at Real Madrid?
+                    </p>
+                    <p class="ShortDescribtion">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Possimus deserunt saepe tempora dolorem.
+                    </p>
+                    <a href="#" class="readMore">
+                        Read More
+                    </a>
+                </div>
+            </div>
+            <div class="BlogTwo">
+                <img src="image/blogImage(2).jpg" alt="blogImage">
+                <div class="BlogDescription">
+                    <p class="BlogAddingDate">
+                        May 20, 2020
+                    </p>
+                    <p class="BlogTitle">
+                        Romolu to stay at Real Madrid?
+                    </p>
+                    <p class="ShortDescribtion">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Possimus deserunt saepe tempora dolorem.
+                    </p>
+                    <a href="#" class="readMore">
+                        Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footerContainer">
+        <div class="footerContent">
+            <ul class="FooterNews" id="FooterNews">
+                <p class="FooterNews__title">News</p>
+            </ul>
+            <ul class="FooterTickets" id="FooterTickets">
+                <p class="FooterTickets__title">Tickets</p>
+            </ul>
+            <ul class="FooterMatches" id="FooterMatches">
+                <p class="FooterMatch__title">Match</p>
+            </ul>
+            <ul class="FooterSocial" id="FooterSocial">
+                <p class="footerSocial__title">Social</p>
+            </ul>
+        </div>
+        <p class="CopyRight">Copyright © 2020 All rights reserved | This template is made with  by <span class="Creator">Colorlib</span></p>
+    </footer>
+
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous">
+    </script>
+    <script src="./js/MainPage.js"></script>
+</body>
+</html>

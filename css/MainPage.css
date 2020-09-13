@@ -1,0 +1,688 @@
+.topSection__menu {
+  height: 100vh;
+  width: 100%;
+  min-height: 669px;
+  background-image: url("../image/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topSection__container {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  min-height: 669px;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 84px;
+  width: 100%;
+}
+
+.header__container {
+  width: 86%;
+  margin: auto;
+}
+
+.navbar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__menu li {
+  margin: 0px 20px;
+  padding: 10px 0px;
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.navbar__menu li:last-child {
+  margin-right: 0px;
+}
+
+.navbar__menu li:hover {
+  border-bottom: white 2px solid;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar__menu a {
+  color: white;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.navbar__menu .active {
+  border-bottom: white 2px solid;
+}
+
+.headerSection__container {
+  height: calc(100% - 84px);
+}
+
+.WorldCupEvent__container {
+  width: 40%;
+  text-align: left;
+  margin-left: 100%;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.WorldCupEvent__title {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.WorldCupEvent__text {
+  width: 85%;
+  color: white;
+  margin-top: 35px;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  word-spacing: 30px;
+  font-size: 38px;
+  width: 85%;
+  margin-top: 50px;
+  color: white;
+}
+
+.timer span {
+  font-size: 14px;
+  padding-right: 21px;
+  margin-top: 18px;
+}
+
+.timer span:last-child {
+  padding-right: 0px;
+}
+
+.BookTKTS {
+  background-color: #f04747;
+  border: 2px #f04747 solid;
+  border-radius: 2px;
+  width: 140px;
+  height: 54px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.BookTKTS:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: white 2px solid;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.learnMore {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px rgba(0, 0, 0, 0) solid;
+  border-radius: 2px;
+  width: 140px;
+  height: 54px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.WorldCupEventBtns {
+  margin-top: 30px;
+}
+
+.match__container {
+  width: 90%;
+  height: 318px;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: -60px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../image/teamsBG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.match__container .FirstTeam, .match__container .SecondTeam {
+  width: 50%;
+  height: 318px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.match__container .TeamOne__logo, .match__container .TeamTwo__logo {
+  width: 90px;
+}
+
+.match__container .TeamOneName, .match__container .TeamTwoName {
+  color: white;
+  font-size: 20px;
+}
+
+.match__container .FirstEL {
+  margin-top: 65px;
+}
+
+.match__container p {
+  color: white;
+  margin-top: 8px;
+}
+
+.match__container .matchResult {
+  width: 100%;
+  height: 318px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 70px;
+}
+
+.lastNews__container {
+  background-color: #222831;
+  width: 100%;
+  height: 1000px;
+}
+
+.lastNews__container .lastNews__content {
+  width: 90%;
+  padding-top: 360px;
+  margin: auto;
+}
+
+.lastNews__container .lastNews__title {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.lastNews__container .lastNews__title::before {
+  content: "";
+  padding-left: -15px;
+  padding-right: 15px;
+  margin-right: 20px;
+  background: #ee1e46;
+}
+
+.lastNews__container .News {
+  width: 100%;
+  height: 480px;
+  margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.lastNews__container .News li {
+  width: 31%;
+  height: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.lastNews__container .News li:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.lastNews__container .News li .newsInfo {
+  color: white;
+  font-size: 18px;
+  margin-left: 35px;
+  font-weight: bold;
+}
+
+.lastNews__container .News li .post__author {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.lastNews__container .News li .postAuthor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+}
+
+.lastNews__container .News li .authorInfo {
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+.lastNews__container .News li .postDate {
+  font-weight: 100;
+  color: #bebebe;
+}
+
+.lastNews__container .News li .hrInNews {
+  margin-left: -35px;
+  width: 0px;
+  height: 4px;
+  background-color: #f04747;
+  border: 1px #f04747 solid;
+}
+
+.NextMatch__container {
+  background-color: #1a1e25;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.NextMatch__container .nextMatch__content {
+  width: 90%;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.NextMatch__container .nextMatch {
+  width: 49%;
+  margin: auto;
+  border: 1px #5c5c5c solid;
+  height: 390px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+}
+
+.NextMatch__container .teamsInNextMatch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.NextMatch__container .teamsInNextMatch img {
+  width: 120px;
+}
+
+.NextMatch__container .teamsInNextMatch .VS__icon {
+  background-color: #f04747;
+  border: 1px #f04747 solid;
+  padding: 6px 16px;
+  border-radius: 15px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: white;
+  font-weight: 800;
+}
+
+.NextMatch__container .teamsInNextMatch .footballLeague, .NextMatch__container .teamsInNextMatch .Soccer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  color: white;
+}
+
+.NextMatch__container .NextMatch__textCenter {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: 50px;
+  text-align: center;
+}
+
+.NextMatch__container .matchType {
+  color: #f04747;
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+.NextMatch__container .matchDate, .NextMatch__container .matchTime {
+  color: #494949;
+  font-size: 19px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.NextMatch__container .matchPlace {
+  color: #f04747;
+  font-size: 19px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.SoccerVideos__container {
+  width: 100%;
+  padding: 35px 0px;
+  background-color: #222831;
+}
+
+.SoccerVideos__container .CarouselHead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.SoccerVideos__container .SlideBtns {
+  padding: 5px 20px;
+  font-size: 28px;
+  background-color: #393e47;
+  border: #393e47 1px solid;
+  color: white;
+  border-radius: 6px;
+}
+
+.SoccerVideos__container .SlideBtns:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #f04747;
+  border: #f04747 1px solid;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.SoccerVideos__container .VideoTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.SoccerVideos__container .VideoTitle::before {
+  content: "";
+  padding-left: -15px;
+  padding-right: 15px;
+  margin-right: 20px;
+  background: #ee1e46;
+}
+
+.SoccerVideos__container .SoccerVideo__content {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.SoccerVideos__container .SoccerVideos__carousel {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 50px;
+  height: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.SoccerVideos__container .SoccerVideos__carousel li {
+  width: 277px;
+  height: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 35px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.SoccerVideos__container .SoccerVideos__carousel .videoDescribe {
+  margin-bottom: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+}
+
+.SoccerVideos__container .SoccerVideos__carousel .playVideo {
+  color: white;
+  background-color: #f04747;
+  padding: 23px;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.SoccerVideos__container .SoccerVideos__carousel .playVideo:hover {
+  -webkit-box-shadow: 0px 0px 15px 10px #f04747;
+          box-shadow: 0px 0px 15px 10px #f04747;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 17;
+}
+
+.SoccerVideos__container .SoccerVideos__carousel .describeForVideo {
+  margin-left: 15px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.OurBlog__container {
+  width: 100%;
+  background-color: #1a1e25;
+  padding: 60px 0px;
+}
+
+.OurBlog__container .OurBlog__content {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.OurBlog__container img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.OurBlog__container .BlogOne, .OurBlog__container .BlogTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 48%;
+}
+
+.OurBlog__container .BlogDescription {
+  margin-left: 18px;
+}
+
+.OurBlog__container .BlogAddingDate {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.OurBlog__container .BlogTitle {
+  color: white;
+  font-size: 21px;
+  height: 50px;
+}
+
+.OurBlog__container .ShortDescribtion {
+  color: rgba(255, 255, 255, 0.3);
+  height: 100px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.OurBlog__container .readMore {
+  color: #f04747;
+  font-size: 18px;
+}
+
+.footerContainer {
+  padding: 50px 0px;
+  background-color: #222831;
+}
+
+.footerContainer .footerContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footerContainer ul {
+  width: 24%;
+}
+
+.footerContainer li {
+  padding: 7px 0px;
+}
+
+.footerContainer a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footerContainer a:hover {
+  color: #f04747;
+}
+
+.footerContainer .CopyRight {
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.footerContainer .Creator {
+  color: #f04747;
+  cursor: pointer;
+}
+
+.footerContainer .FooterNews__title, .footerContainer .FooterTickets__title, .footerContainer .FooterMatch__title, .footerContainer .footerSocial__title {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=MainPage.css.map */
